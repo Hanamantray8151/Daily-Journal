@@ -1,0 +1,86 @@
+html,body {
+    background-image: url("https://i.pinimg.com/originals/9f/50/de/9f50ded2a5fe91dd7a73807e3b4474a1.jpg");
+    background-repeat: no-repeat;
+    height: 200%;
+    animation: slide 15s infinite;
+}
+title{
+    color: magenta;
+}
+img{
+    width: 10%;
+    height: 20%;
+    border-radius: 100%;
+}
+@keyframes slide {
+    0%{
+        background-image: url("https://i.pinimg.com/originals/9f/50/de/9f50ded2a5fe91dd7a73807e3b4474a1.jpg");
+        height: 100%;
+    }
+    33%{
+        background-image: url("https://i.pinimg.com/originals/83/50/17/83501749c7322280e225087263b901a4.jpg");
+        height: 100%;
+    }
+    67%{
+        background-image: url("https://cdn.wallpapersafari.com/52/80/zgtZjB.jpg");
+        height: 100%;
+    }
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.navbar-brand{
+    color: purple;
+    text-decoration-style: solid;
+    font-size: 30px;
+}
+.navbar-nav  li a:hover {
+    color: magenta;
+}
+.lab{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+textarea{
+    margin-bottom: 10px;
+}
+h1{
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 20px;
+	font-size: 18px;
+    color: mintcream;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+

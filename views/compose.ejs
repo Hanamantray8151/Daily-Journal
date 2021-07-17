@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+<marquee direction="up"><h1>Compose</h1></marquee>
+<form action="/compose" method="POST">
+    <div class="form-group">
+    <label style="color: white;" class="lab">Title</label>
+    <input class="form-control" type="text" name="postTitle" autocomplete="off">
+    <label style="color: white;" class="lab">Post</label>
+    <textarea class="form-control" name="postBody" id="" cols="30" rows="5" autocomplete="off"></textarea>
+    <button type="submit" class="btn btn-lg btn-primary">Publish</button>
+    </div>    
+</form>
